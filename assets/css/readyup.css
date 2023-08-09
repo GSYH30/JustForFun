@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    background-color:#222831;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-content {
+    box-shadow: 7px 7px 7px;
+    border-radius: 7px;
+    background-color: #454c57;
+    margin: 13px;
+    width: 300px;
+}
+
+.isi-content {
+    margin: 30px;
+    text-align: center;
+}
+
+.isi-content img {
+    width: 200px;
+    height: 200px;
+}
+
+.dalam-content h1 {
+    margin: 20px;
+    color: white;
+}
+
+.dalam-content p {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+.button button {
+    margin-top: 20px;
+    transition: 0.3s;
+    padding: 5px;
+    width: 80px;
+    border-radius: 7px;
+}
+
+.button button:hover {
+    transition: 0.3s;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 7px;
+    background-color: gold;
+    box-shadow: 3px 3px 3px;
+}
+
+.button button {
+    font-size: 10px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #222831;
+}
